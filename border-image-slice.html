@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS | border-image-slice property</title>
+    <style>
+      body {
+        text-align: center;
+      }
+
+      h1 {
+        color: green;
+      }
+
+      .border1 {
+        border: 10px solid transparent;
+
+        padding: 15px;
+
+        border-image-source: url(https://media.geeksforgeeks.org/wp-content/uploads/border1-2.png);
+
+        border-image-repeat: round;
+
+        border-image-slice: 30;
+
+        border-image-width: 20px;
+      }
+
+      .border2 {
+        border: 10px solid transparent;
+
+        padding: 15px;
+
+        border-image-source: url(https://media.geeksforgeeks.org/wp-content/uploads/border1-2.png);
+
+        border-image-repeat: round;
+
+        border-image-slice: 30%;
+
+        border-image-width: 20px;
+      }
+
+      .border3 {
+        border: 10px solid transparent;
+
+        padding: 15px;
+
+        border-image-source: url(https://media.geeksforgeeks.org/wp-content/uploads/border1-2.png);
+
+        border-image-repeat: round;
+
+        border-image-slice: fill;
+
+        border-image-width: 20px;
+      }
+
+      .border4 {
+        border: 10px solid transparent;
+
+        padding: 15px;
+
+        border-image-source: url(https://media.geeksforgeeks.org/wp-content/uploads/border1-2.png);
+
+        border-image-repeat: round;
+
+        border-image-slice: initial;
+
+        border-image-width: 20px;
+      }
+
+      .border5 {
+        border: 10px solid transparent;
+
+        padding: 15px;
+
+        border-image-source: url(https://media.geeksforgeeks.org/wp-content/uploads/border1-2.png);
+
+        border-image-repeat: round;
+
+        border-image-slice: inherit;
+
+        border-image-width: 20px;
+      }
+
+      div {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>GeeksforGeeks</h1>
+
+    <h2>border-image-slice property</h2>
+
+    <div class="border1">Border 1</div>
+
+    <div class="border2">Border 2</div>
+
+    <div class="border3">Border 3</div>
+
+    <div class="border4">Border 4</div>
+
+    <div class="border5">Border 5</div>
+  </body>
+</html>

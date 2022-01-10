@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+.one {
+  height: 50px;
+  background-color: coral;
+}
+a {
+  height: 50px;
+  width: 40px;
+  background-color: seagreen;
+  margin: 50px;
+}
